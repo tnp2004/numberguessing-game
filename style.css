@@ -1,0 +1,58 @@
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    padding: 13px;
+    background-color: #FC5185;
+}
+
+.icon-text {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    background-color: #F5F5F5;
+    width: 900px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.headder {
+    margin-top: 20px;
+    padding: 5px;
+    text-align: center;
+    background-color: #3FC1C9;
+}
+
+.guess-clues {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.number-clues {
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: #364F6B;
+}
+
+.new-game {
+    margin: 10px;
+}
+
+.user-guess {
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.value-box {
+    margin-top: 5rem;
+    text-align: center;
+}

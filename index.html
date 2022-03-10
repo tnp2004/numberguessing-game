@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Number Guessing Game!</title>
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <div>
+                <a class="icon-text" href="#">numberguessing</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="headder">guess the number 1 - 99</div>
+        <div class="new-game" id="game-new">
+            <button>NEW GAME</button>
+        </div>
+        <div class="guess-clues" id="clues-guess">Clues</div>
+        <div class="user-guess">
+            <span class="number-clues" id="numclue">_____</span>
+        </div>
+        <div class="value-box">
+            <input class="input-box" id="enter-box" type="text" placeholder="enter the number" onfocus="this.value=''" onKeyUp="if(isNaN(this.value)){this.value='';}">
+            <button id="btn">send</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
